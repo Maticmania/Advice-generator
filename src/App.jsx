@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-general min-h-screen flex items-center justify-center">
+      <div className="bg-general min-h-screen flex items-center justify-center px-2 xl:px-0">
         <div className="container bg-primary max-w-[400px] w-auto h-[300px] shadow-xl rounded-xl relative p-2 px-8 flex justify-evenly flex-col">
           <h4 className="text-glow text-center text-sm font-medium tracking-wide">
             ADVICE #{data ? data.id : 'Loading...'}
